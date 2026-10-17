@@ -1,0 +1,38 @@
+{
+  "name": "@anujmau/agent-conductor",
+  "version": "0.3.2",
+  "description": "Run Codex CLI, OpenCode CLI and Claude Code simultaneously on isolated git worktrees - LLM task planner, parallel headless runners, auto-merge",
+  "main": "bin/cli.js",
+  "bin": {
+    "agent-conductor": "bin/cli.js"
+  },
+  "scripts": {
+    "postinstall": "node bin/setup.js"
+  },
+  "files": [
+    "bin/",
+    "agent_conductor/",
+    "README.md",
+    ".env.example"
+  ],
+  "keywords": [
+    "ai-agents",
+    "multi-agent",
+    "codex",
+    "opencode",
+    "claude",
+    "orchestrator",
+    "llm",
+    "git-worktree",
+    "parallel"
+  ],
+  "author": "Anuj Mhatre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a18-n03/agent-conductor"
+  },
+  "engines": {
+    "node": ">=16"
+  }
+}
